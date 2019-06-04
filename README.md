@@ -1,0 +1,2 @@
+# vico
+Configuración de Vim
