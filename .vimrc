@@ -20,8 +20,8 @@ nnoremap <s-k> >>
 
 " Moving arround
 nnoremap <c-h> <c-f>
-nnoremap <c-j> <c-d>
-nnoremap <c-k> <c-u>
+nnoremap <c-j> <c-e>
+nnoremap <c-k> <c-y>
 nnoremap <c-l> <c-b>
 
 inoremap <c-h> <left>
