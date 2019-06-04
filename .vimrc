@@ -38,11 +38,10 @@ nnoremap <s-k> gt
 colorscheme desert
 
 set colorcolumn=80,120
-set cursorcolumn
 set cursorline
 set hlsearch
 
 high ColorColumn cterm=NONE ctermbg=235
-high CursorColumn cterm=NONE ctermbg=235
+high CursorLineNr cterm=NONE ctermbg=235
 high CursorLine cterm=NONE ctermbg=235
 high Search cterm=None ctermbg=13 ctermfg=0
