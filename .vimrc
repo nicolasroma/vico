@@ -15,8 +15,8 @@ nnoremap <backspace> :write<cr>
 nnoremap <space> o<esc>
 
 " Identation
-nnoremap <s-j> <<
-nnoremap <s-k> >>
+nnoremap <s-h> <<
+nnoremap <s-l> >>
 
 " Moving arround
 nnoremap <c-h> <c-f>
@@ -28,6 +28,11 @@ inoremap <c-h> <left>
 inoremap <c-j> <down>
 inoremap <c-k> <up>
 inoremap <c-l> <right>
+
+" Tabs & Files
+nnoremap <leader>t :tabnew 
+nnoremap <s-j> gT
+nnoremap <s-k> gt
 
 " Look & Feel
 colorscheme desert
