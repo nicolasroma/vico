@@ -21,6 +21,9 @@ nnoremap <space> o<esc>
 nnoremap <s-h> <<
 nnoremap <s-l> >>
 
+vnoremap <s-h> <<
+vnoremap <s-l> >>
+
 " Moving arround
 nnoremap <c-h> <c-f>
 nnoremap <c-j> <c-e>
