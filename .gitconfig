@@ -1,0 +1,8 @@
+[alias]
+   df = diff
+   st = status
+   ci = commit
+   br = branch
+   co = checkout
+   lola = log --graph --pretty=format:'%C(auto)%h %d %cn > %s - %cd' --all --date=short
+   unstage = reset HEAD
