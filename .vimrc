@@ -12,7 +12,9 @@ set nowrap
 inoremap <tab><tab> <esc>
 nnoremap <leader>ev :tabnew $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
-nnoremap <backspace> :write<cr>
+nnoremap <backspace>w :w<cr>
+nnoremap <backspace>q :q<cr>
+nnoremap <backspace>x :x<cr>
 nnoremap <space> o<esc>
 
 " Identation
@@ -42,7 +44,7 @@ set colorcolumn=80,120
 set cursorline
 set hlsearch
 
-high ColorColumn cterm=NONE ctermbg=235
+high ColorColumn cterm=NONE ctermbg=0
 high CursorLineNr cterm=NONE ctermbg=235
 high CursorLine cterm=NONE ctermbg=235
 high Search cterm=None ctermbg=13 ctermfg=0
