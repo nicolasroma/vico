@@ -6,6 +6,7 @@ set laststatus=2
 set shiftwidth=4
 set tabstop=4
 set expandtab
+set nowrap
 
 " Basic Mapings
 inoremap <tab><tab> <esc>
