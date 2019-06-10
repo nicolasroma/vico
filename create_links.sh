@@ -2,6 +2,15 @@
 
 REPO_PATH=`pwd`
 
+# Create symlink for .bash_aliases
+if [ -f "$HOME/.bash_aliases" ]
+then
+    echo "WARNING: Check that your .bash_aliases is saved with another name."
+else
+    ln -s $REPO_PATH/.bash_aliases $HOME/.bash_aliases
+    echo "Link created to .bash_aliases"
+fi
+
 # Create symlink for .vimrc
 if [ -f "$HOME/.vimrc" ]
 then

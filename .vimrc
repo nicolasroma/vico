@@ -4,18 +4,46 @@ let mapleader=','
 set number relativenumber
 set laststatus=2
 set shiftwidth=4
+set smartindent
 set tabstop=4
 set expandtab
 set nowrap
 
 " Basic Mapings
-inoremap <tab><tab> <esc>
 nnoremap <leader>ev :tabnew $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <backspace>w :w<cr>
 nnoremap <backspace>q :q<cr>
 nnoremap <backspace>x :x<cr>
 nnoremap <space> o<esc>
+
+" Writing
+inoremap ( ()<c-o>i
+inoremap [ []<c-o>i
+inoremap { {}<c-o>i
+inoremap " ""<c-o>i
+inoremap ' ''<c-o>i
+
+nnoremap (c ci(
+nnoremap [c ci[
+nnoremap {c ci{
+nnoremap "c ci"
+nnoremap 'c ci'
+
+nnoremap (y yi(
+nnoremap [y yi[
+nnoremap {y yi{
+nnoremap "y yi"
+nnoremap 'y yi'
+
+nnoremap (d di(
+nnoremap [d di[
+nnoremap {d di{
+nnoremap "d di"
+nnoremap 'd di'
+
+" Shortcuts
+nnoremap <leader>p :set paste!<cr>
 
 " Identation
 nnoremap <s-h> <<
