@@ -15,32 +15,35 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <backspace>w :w<cr>
 nnoremap <backspace>q :q<cr>
 nnoremap <backspace>x :x<cr>
-nnoremap <space> o<esc>
 
 " Writing
-inoremap ( ()<c-o>i
-inoremap [ []<c-o>i
-inoremap { {}<c-o>i
-inoremap " ""<c-o>i
-inoremap ' ''<c-o>i
+inoremap ( ()<esc>i
+inoremap [ []<esc>i
+inoremap { {}<esc>i
+inoremap " ""<esc>i
+inoremap ' ''<esc>i
 
-nnoremap (c ci(
-nnoremap [c ci[
-nnoremap {c ci{
-nnoremap "c ci"
-nnoremap 'c ci'
+nnoremap (C ci(
+nnoremap [C ci[
+nnoremap {C ci{
+nnoremap "C ci"
+nnoremap 'C ci'
 
-nnoremap (y yi(
-nnoremap [y yi[
-nnoremap {y yi{
-nnoremap "y yi"
-nnoremap 'y yi'
+nnoremap (Y yi(
+nnoremap [Y yi[
+nnoremap {Y yi{
+nnoremap "Y yi"
+nnoremap 'Y yi'
 
-nnoremap (d di(
-nnoremap [d di[
-nnoremap {d di{
-nnoremap "d di"
-nnoremap 'd di'
+nnoremap (D di(
+nnoremap [D di[
+nnoremap {D di{
+nnoremap "D di"
+nnoremap 'D di'
+
+nnoremap m <s-j>
+nnoremap <space> o<esc>
+nnoremap <return> i<return><esc>
 
 " Shortcuts
 nnoremap <leader>p :set paste!<cr>
