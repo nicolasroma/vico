@@ -41,7 +41,7 @@ nnoremap {D di{
 nnoremap "D di"
 nnoremap 'D di'
 
-nnoremap m <s-j>
+" nnoremap m <s-j>
 nnoremap <space> o<esc>
 nnoremap <return> i<return><esc>
 
