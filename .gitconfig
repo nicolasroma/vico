@@ -9,3 +9,5 @@
 [user]
 	email = nicolasroma@gmail.com
 	name = Nico Roma
+[core]
+	editor = vim
